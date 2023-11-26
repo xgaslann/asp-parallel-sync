@@ -24,7 +24,7 @@ public class WeatherForecastController : ControllerBase
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
-    public async Task<List<IEnumerable<Services.WeatherForecast>>> Get()
+    public async Task<List<IEnumerable<WeatherForecast>>> Get()
     {
         // Console.WriteLine($"Sync Start:{DateTime.UtcNow}");
         // var london = await _weatherService.GetWeather("London");
